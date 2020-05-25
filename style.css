@@ -8,6 +8,10 @@ html, body {
     margin: 0;
 }
 
+h1 {
+    text-align: centre;
+}
+
 .menu {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
@@ -45,6 +49,13 @@ label {
 #toggle {
     display: none;
     
+}
+
+
+
+h1 {
+
+
 }
 
 /* for mobile devices */
