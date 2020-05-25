@@ -1,5 +1,7 @@
 # Alex Qiang's Portfolio
 
+https://alexqiang.netlify.app/
+
 ## Purpose
 The purpose of this portfolio is to showcase my abilities and experiences as a developers. This website includes my resume, important links and projects I have tackled as a developer. It highlights my proficiencies with programming languages, my experiences and personality.
 
