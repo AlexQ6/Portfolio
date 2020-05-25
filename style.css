@@ -13,6 +13,8 @@ html, body {
     text-align: right;
     height: 70px;
     line-height: 70px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .myLinks {
@@ -34,12 +36,15 @@ label {
     font-size: 26px;
     line-height: 70px;
     display: none;
+    justify-content: flex-end;
     width: 26px;
-    float: right; 
+    
+    
 }
 
 #toggle {
     display: none;
+    
 }
 
 /* for mobile devices */
@@ -47,6 +52,9 @@ label {
     label {
         display: block;
         cursor: pointer;
+        
+        
+
     }
 
     .myLinks {
