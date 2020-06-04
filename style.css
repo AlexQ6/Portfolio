@@ -8,17 +8,27 @@ html, body {
     margin: 0;
 }
 
-/* h1 {
+main {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
     text-align: centre;
     display: flex;
     justify-content: center;
-} */
+
+}
 
 .menu {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
     line-height: 70px;
+    
+    
+    
     
 }
 
@@ -44,7 +54,6 @@ label {
     width: 26px;
     float: right;
     
-    
 }
 
 #toggle {
@@ -52,12 +61,6 @@ label {
     
 }
 
-
-
-h1 {
-
-
-}
 
 /* for mobile devices */
 @media only screen and (max-width: 500px) {
@@ -71,17 +74,24 @@ h1 {
         text-align: center;
         width: 100%;
         display: none;
-        
+ 
     }
 
     .myLinks a {
+        
         display: block;
+        background-color: #EAEAEB;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
+        position: relative;
+        z-index: 99;
+        opacity: 1;
+        
     }
 
     #toggle:checked + .myLinks {
         display: block;
+        
     }
 
 
