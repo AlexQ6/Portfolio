@@ -8,6 +8,12 @@ html, body {
     margin: 0;
 }
 
+main {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     text-align: centre;
     display: flex;
@@ -19,8 +25,7 @@ h1 {
     text-align: right;
     height: 70px;
     line-height: 70px;
-    display: flex;
-    justify-content: flex-end;
+    
 }
 
 .myLinks {
@@ -42,9 +47,8 @@ label {
     font-size: 26px;
     line-height: 70px;
     display: none;
-    justify-content: flex-end;
     width: 26px;
-    
+    float: right;
     
 }
 
@@ -54,19 +58,11 @@ label {
 }
 
 
-
-h1 {
-
-
-}
-
 /* for mobile devices */
 @media only screen and (max-width: 500px) {
     label {
         display: block;
         cursor: pointer;
-        
-        
 
     }
 
@@ -74,18 +70,23 @@ h1 {
         text-align: center;
         width: 100%;
         display: none;
+ 
     }
 
     .myLinks a {
+        
         display: block;
+        background-color: #EAEAEB;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
+        position: relative;
+        z-index: 99;
+        opacity: 1;
+        
     }
 
     #toggle:checked + .myLinks {
         display: block;
+        
     }
-
-
-
 }
