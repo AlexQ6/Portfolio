@@ -31,12 +31,22 @@ The audience is to attract potential employers who are looking for a junior deve
 
 ## Screenshots
 
+### Desktop
+
+![Image](./docs/desktop1.JPG)
+![Image](./docs/desktop2.JPG)
+
+### Mobile
+
+![Image](./docs/mobile1.JPG)
+![Image](./docs/mobile2.JPG)
+
+
 ## Tech Stack
 This portfolio website was built using the following:
 
  - HTML
  - CSS
- - Google Fonts
  - Visual studio code
  - Balsamiq (wireframes)
  - Lucidchart (sitemap)
