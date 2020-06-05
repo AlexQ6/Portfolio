@@ -1,0 +1,25 @@
+main {
+    width: 75%;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.projects {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 1rem;
+    margin: 1rem;;
+    box-shadow: 5px 10px #888888;
+    
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+}
