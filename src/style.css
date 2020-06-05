@@ -135,6 +135,7 @@ footer {
     .myLinks a {
         
         display: block;
+        clear: both;
         background-color: #EAEAEB;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
