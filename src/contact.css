@@ -1,0 +1,25 @@
+input[type=submit] {
+	background-color: #1199b4;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+input[type=text] {
+
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+	
+}
+
+input[type=email] {
+	width: 100%;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+	
+}
