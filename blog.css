@@ -6,6 +6,10 @@ main {
     justify-content: center;
 
 }
+h1 {
+    text-align: center;
+}
+
 
 .row {
     display: flex;
@@ -31,3 +35,6 @@ article {
     box-shadow: 5px 10px #888888;
 }
   
+img {
+    width: 75%;
+}
