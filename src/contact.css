@@ -7,19 +7,33 @@ input[type=submit] {
 	text-decoration: none;
 	font-size: 16px;
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
+
+
 input[type=text] {
 
     width: 100%;
     padding: 1rem 1.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 	
 }
 
 input[type=email] {
 	width: 100%;
     padding: 1rem 1.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+	
+}
+
+textarea {
+
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 	
 }

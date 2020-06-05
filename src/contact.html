@@ -36,15 +36,17 @@
     <main> 
         <h1>Contact me</h1>
         <section>
-            <h3>Contact me via my email at realemail@gmail.com or via the total working contact form below</h3>
+            <h4>Contact me via my email at realemail@gmail.com or via the total working contact form below</h4>
 			<form>
-				<label for="fname">Full Name:</label>
-				
+				<label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Jane Smith">
 
-                <label for="email">Enter your email:</label>
-                
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="example@email.com">
+
+                <label for="subject">Subject:</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
 				
 				<input type="submit" value="Submit" onclick="alert('Thank you!')">
 			</form>

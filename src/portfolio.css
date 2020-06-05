@@ -1,14 +1,4 @@
-main {
-    width: 75%;
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-h1 {
-    text-align: center;
-}
 .projects {
     width: 50%;
     align-self: center;
