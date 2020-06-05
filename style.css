@@ -81,7 +81,7 @@ h1 {
     
 
  }
- .btn {
+ .download {
     background-color: gray;
 	color: white;
 	padding: 15px 32px;
@@ -95,7 +95,7 @@ h1 {
   }
   
   /* Darker background on mouse-over */
-  .btn:hover {
+  .download:hover {
     background-color:  #1199b4;
     color: white;
   } 
