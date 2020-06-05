@@ -76,10 +76,8 @@ h1 {
     text-align: center;
 }
 
- /* button */
- button {
-    
-
+ a {
+     text-decoration: none;
  }
  .download {
     background-color: gray;
