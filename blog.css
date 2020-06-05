@@ -7,7 +7,21 @@ main {
 
 }
 
-.projects {
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+article {
     width: 50%;
     align-self: center;
     text-align: center;
@@ -15,10 +29,5 @@ main {
     padding: 1rem;
     margin: 1rem;;
     box-shadow: 5px 10px #888888;
-
 }
-
-
-@media only screen and (max-width: 500px) {
-
-}
+  
